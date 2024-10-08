@@ -8,7 +8,6 @@ import {
   IconHome,
   IconUserFilled,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function Dock() {
   const links = [
