@@ -6,7 +6,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export const NavbarAuth = () => {
   return (
-    <div className="absolute right-0 p-4">
+    <div className="absolute right-0 p-4 z-50">
       <div className="flex gap-4">
         <SignedOut>
           <SignInButton />
