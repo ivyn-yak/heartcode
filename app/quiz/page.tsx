@@ -2,20 +2,8 @@
 
 import DrugQuiz from "@/components/quiz";
 import { NavbarAuth } from "@/components/navbar-auth";
-import { useUser } from "@clerk/clerk-react";
-import { Landing } from "@/components/landing";
 
-export default function QuizDemo() {
-  const { isSignedIn } = useUser();
-  if (!isSignedIn) {
-    return (
-      <div>
-        <NavbarAuth />
-        <Landing />
-      </div>
-    );
-  }
-
+export default function Quiz() {
   return (
     <div>
       <NavbarAuth />
